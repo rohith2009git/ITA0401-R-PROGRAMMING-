@@ -1,0 +1,17 @@
+%%R
+# Load women's dataset
+data(women)
+
+# Create factor from height
+h <- factor(women$height)
+h
+levels(h)
+
+# Generate random sample of letters
+x <- sample(LETTERS[1:10], 5)
+x
+
+# Convert letters into factor
+f <- factor(x)
+f
+levels(f)

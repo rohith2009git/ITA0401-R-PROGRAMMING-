@@ -1,0 +1,13 @@
+%%R
+a = 1:12
+arr = array(a, dim = c(2, 3, 2),
+            dimnames = list(
+              c("R1", "R2"),
+              c("C1", "C2", "C3"),
+              c("T1", "T2")
+            ))
+arr
+
+# Print specific elements
+arr[1, 2, 1]
+arr[2, 3, 2]
